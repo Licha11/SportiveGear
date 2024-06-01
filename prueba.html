@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./Styles/prueba.css">
+  <title>Ropa Deportiva</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2">
+            <h3>Filtrar por</h3>
+            <div class="accordion" id="filterAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMarcas">
+                    Marcas
+                  </button>
+                </h2>
+                <div id="collapseMarcas" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="Marcas" value="Adidas" id="chkAdidas">
+                      <label class="form-check-label" for="chkAdidas">Adidas</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="Marcas" value="Nike" id="chkNike">
+                      <label class="form-check-label" for="chkNike">Nike</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="Marcas" value="Puma" id="chkMarcas">
+                      <label class="form-check-label" for="chkMarcas">Puma</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDisciplinas">
+                    Disciplinas
+                  </button>
+                </h2>
+                <div id="collapseDisciplinas" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="discipline" value="futbol" id="chkFutbol">
+                      <label class="form-check-label" for="chkFutbol">Fútbol</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="discipline" value="basketball" id="chkBasketball">
+                      <label class="form-check-label" for="chkBasketball">Basket</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="discipline" value="tenis-mesa" id="chkPingpong">
+                      <label class="form-check-label" for="chkPingpong">Ping pong</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePrecios">
+                    Precios
+                  </button>
+                </h2>
+                <div id="collapsePrecios" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="Precio" value="Menor" id="chkMenor">
+                      <label class="form-check-label" for="chkMenor">$9.999</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="Precio" value="Medio" id="chkMedio">
+                      <label class="form-check-label" for="chkMedio">$1.9999</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="Precio" value="Mayor" id="chkMayor">
+                      <label class="form-check-label" for="chkMayor">$29.999</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="row" id="productList">
+              <!-- Agrega más productos aquí -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./Styles/Index.css">
+    <title>SportiveGear</title>
+</head>
+<body>
+    
+    <header>
+        <div class="nav-top bg-black bg-gradient">
+            <div class="container text-white section-nav p-1 d-flex justify-content-between">
+            <button class="d-md-none rounded-pill">
+              <a href="#"><i class="bi bi-person-lines-fill"></i></a>
+          </button>
+          <button class="d-none d-md-inline rounded-pill">
+              <a href="#"><i class="bi bi-person-lines-fill"></i> Acerca de Nosotros</a>
+          </button>
+          <h6 class="mt-2 d-lg-none text-center">Envio gratis desde los $19999</h6>
+          <h6 class="mt-2 d-none d-lg-inline">Envio gratis desde los $19999 | 3 cuotas sin interés </h6>
+            <button class="d-md-none rounded-pill">
+                <a href="#"><i class="bi bi-people-fill"></i></a>
+            </button>
+            <button class="d-none d-md-inline rounded-pill">
+                <a href="#"><i class="bi bi-people-fill"></i> Contacto</a>
+            </button>
+            </div>
+        </div>
+        <div> <!-- Para poner fexedado el navbar-->
+            <!-- Nav --> 
+
+                <div class="container-fluid nav-main">
+                    <div class="row h-100 align-items-center">
+                      <div class="col-2 d-lg-none">
+                          <button class="btn text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            <i class="bi bi-dribbble"></i>
+                          </button>
+                          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                              <div>
+                                <h2 class="mb-4">Categorias</h2>
+                              </div>
+                              <div class="mb-3">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                  <b>Hombre</b>
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-zapatillas-24.png" alt=""> Zapatillas</a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-camiseta-24.png" alt=""> Remeras</a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-pantalones-24.png" alt=""> Pantalones</a></li>
+                                </ul>
+                              </div>
+                              <div class="mb-3">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                  <b>Mujeres</b>
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-zapatillas-24.png" alt=""> Zapatillas</a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-camiseta-24.png" alt=""> Remeras</a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-pantalones-24.png" alt=""> Pantalones</a></li>
+                                </ul>
+                              </div>
+                              <div class="mb-3">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                  <b>Niños</b>
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-zapatillas-24.png" alt=""> Zapatillas</a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-camiseta-24.png" alt=""> Remeras</a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-pantalones-24.png" alt=""> Pantalones</a></li>
+                                </ul>
+                              </div>
+                              <div class="mb-3">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                  <b>Marcas</b>
+                                </button>
+                                <ul class="dropdown-menu text-center">
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-adidas-trébol-filled-70.png" alt="Adidas"></a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-nike-an-american-multinational-corporation---footwear,-apparel,-equipment,-accessories,-and-services-70.png" alt=""></a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-puma-a-german-multinational-company---designs-and-manufactures-athletic-and-casual-footwear,-apparel-and-accessories-70.png" alt=""></a></li>
+                                </ul>
+                              </div>
+                              <div class="mb-3">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                  <b>Deportes</b>
+                                </button>
+                                <ul class="dropdown-menu text-center">
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-fútbol-2-70.png" alt=""></a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-baloncesto-70.png" alt=""></a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-voleibol-70.png" alt=""></a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-10 col-lg-12 d-flex justify-content-end justify-content-md-center align-items-center title-section">
+                        
+                        <div class="-titulo">
+                          <a href="index.html"><h3 class="me-4">SportiveGear</h3></a>      
+                        </div>
+                        <!--Modal de busqueda-->
+                        <div class="d-md-none">
+                            <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#searchModal">
+                                <i class="bi bi-search"></i>
+                              </button>
+                              
+                              <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title text-black" id="searchModalLabel">Búsqueda</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <form>
+                                        <div class="mb-3">
+                                          <label for="searchInput" class="form-label">Buscar</label>
+                                          <input type="text" class="form-control" id="searchInput" placeholder="Escribe tu búsqueda...">
+                                        </div>
+                                      </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                      <button type="button" class="btn btn-primary">Buscar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="d-none d-md-inline w-50">
+                            <div class="input-group input-div">
+                                <input type="text" class="form-control border border-end-0 rounded-start-pill" placeholder="¿Que estas Buscando?" aria-label="¿Que estas Buscando?" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary border border-start-0 bg-white rounded-end-pill" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
+                            </div>
+                        </div>
+                        <div class="link-nav-main">
+                          <button type="button" class="btn px-0 pe-0 d-lg-none buton"><a href="./Login.html"><i class="bi bi-person"></i></a>
+                          </button>
+                            <button class="btn px-0 pe-0 buton d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><a class="" href="#"><i class="bi bi-cart4"></i></a></button>
+                              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Mi Carrito</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                  <div class="card mb-3 card-carrito">
+                                    <div class="row g-0">
+                                      <div class="col-3 d-flex align-items-center">
+                                        <img src="./img-zapatillas/zapatilla-m-1.png" class="img-fluid rounded-start" alt="...">
+                                      </div>
+                                      <div class="col-7">
+                                        <div class="card-body">
+                                          <h6 class="card-title">Zapatillas Asics Gel-Sonoma 6 Standard W Black- de Mujer</h6>
+                                          <p class="card-text">$32.999</p>
+                                        </div>
+                                      </div>
+                                      <div class="col-2 d-flex align-items-center">
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card mb-3 card-carrito">
+                                    <div class="row g-0">
+                                      <div class="col-3 d-flex align-items-center">
+                                        <img src="./img-Pantalones/Pantalones Hombre1.png" class="img-fluid rounded-start" alt="...">
+                                      </div>
+                                      <div class="col-7">
+                                        <div class="card-body">
+                                          <h6 class="card-title">Pantalon Puma Bmw Mms Sweat De Hombre</h6>
+                                          <p class="card-text">$21.999</p>
+                                        </div>                                       
+                                      </div>
+                                      <div class="col-2 d-flex align-items-center">
+                                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="card mb-3 card-carrito">
+                                    <div class="row g-0">
+                                      <div class="col-3 d-flex align-items-center">
+                                        <img src="./Img-Remeras/remera hombre1.png" class="img-fluid rounded-start" alt="...">
+                                      </div>
+                                      <div class="col-7">
+                                        <div class="card-body">
+                                          <h6 class="card-title">Remera Puma Ess Tee De Hombre</h6>
+                                          <p class="card-text">$22.999</p>
+                                        </div>
+                                      </div>
+                                      <div class="col-2 d-flex align-items-center">
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="d-flex justify-content-end">
+                                    <a class="btn" href="#" role="button">Comprar carrito</a>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="link-nav-main d-none d-lg-inline">
+                          <button type="button" class="btn px-0 pe-0 buton"><a href="./Login.html"><i class="bi bi-person"></i> Mi cuenta</a>
+                          </button>
+                            <button class="btn px-0 pe-0 buton" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><a href="#"><i class="bi bi-cart4"></i> Carrito</a></button>
+                              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Mi Carrito</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                  </div>     
+              </div>
+              <nav class="navbar navbar-expand-lg bg-body-tertiary nav-expand">
+                <div class="container-fluid container-lg">
+                  <div class="collapse navbar-collapse rounded" id="navbarNavDropdown">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item dropdown mx-5 me-5 mb-2 mb-lg-0 px-3 pe-3">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <b>Hombre</b>
+                            </a>
+                            <ul class="dropdown-menu mb-2">
+                              <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-zapatillas-24.png" alt=""> Zapatillas</a></li>
+                              <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-camiseta-24.png" alt=""> Remeras</a></li>
+                              <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-pantalones-24.png" alt=""> Pantalones</a></li>
+                            </ul>
+                          </li>
+                      <li class="nav-item dropdown mx-5 me-5 mb-2 mb-lg-0  px-3 pe-3">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <b>Mujeres</b>
+                        </a>
+                        <ul class="dropdown-menu mb-2">
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-zapatillas-24.png" alt=""> Zapatillas</a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-camiseta-24.png" alt=""> Remeras</a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-pantalones-24.png" alt=""> Pantalones</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown mx-5 me-5 mb-2 mb-lg-0 px-3 pe-3">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <b>Niños</b>
+                        </a>
+                        <ul class="dropdown-menu mb-2">
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-zapatillas-24.png" alt=""> Zapatillas</a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-camiseta-24.png" alt=""> Remeras</a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-pantalones-24.png" alt=""> Pantalones</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown mx-5 me-5 mb-2 mb-lg-0 px-3 pe-3">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <b>Marcas</b>
+                        </a>
+                        <ul class="dropdown-menu mb-2 text-center">
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-adidas-trébol-filled-70.png" alt="Adidas"></a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-nike-an-american-multinational-corporation---footwear,-apparel,-equipment,-accessories,-and-services-70.png" alt=""></a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-puma-a-german-multinational-company---designs-and-manufactures-athletic-and-casual-footwear,-apparel-and-accessories-70.png" alt=""></a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown mx-5 px-3 pe-3">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <b>Deportes</b>
+                        </a>
+                        <ul class="dropdown-menu mb-2 text-center text-decoration-none">
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-fútbol-2-70.png" alt=""></a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-baloncesto-70.png" alt=""></a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-voleibol-70.png" alt=""></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+
+        <!-- Fin del Nav-->
+        <section class="Hero">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./imghero/1ra-iamgencap.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" >
+                <img src="./imghero/2da-imagen.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./imghero/3ra-imagencap.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+         </section>
+         
+    </header>
+
+    <!--------------------------------------------------------------------------->
+    <main>
+      <div class=" container-fluid mt-5 d-flex justify-content-center">
+        <div class=" d-none d-md-inline">
+          <img src="./imgbg/foto.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="d-flex justify-content-center d-md-none">
+          <img src="./imgbg/Black and yellow modern black friday sale instagram story.png" alt="" class="img-fluid">
+        </div>
+    </div>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="card mt-5 mb-0 mb-sm-5">
+                <img src="./img-zapatillas/zapatilla-puma-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Zapatillas Puma Flyer Flex Adp de Hombre</h5>
+                  <p class="card-text">$22.999</p>
+                  <a href="#" class="btn btn-outline-danger">Comprar</a>
+              </div>
+            </div>
+          <div class="card mt-5 mt-md-5 mb-5">
+              <img src="./img-zapatillas/zapatilla-puma-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Zapatillas Puma Comet 2 Alt Beta Adp de Hombre</h5>
+                <p class="card-text">$21.999</p>
+                <a href="#" class="btn btn-outline-danger">Comprar</a>
+              </div>
+          </div>
+          <div class="card mt-0 mt-md-5 mb-5">
+            <img src="./img-zapatillas/zapatillas-puma-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Zapatillas Puma Flyer Flex Adp de Hombre</h5>
+              <p class="card-text">$22.999</p>
+              <a href="#" class="btn btn-outline-danger">Comprar</a>
+          </div>
+        </div>
+        <div class="card mt-0 mt-md-5 mb-5">
+          <img src="./img-zapatillas/zapatilla-puma-4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Zapatillas Puma Comet 2 Alt Beta Adp de Hombre</h5>
+            <p class="card-text">$21.999</p>
+            <a href="#" class="btn btn-outline-danger">Comprar</a>
+        </div>
+      </div>
+          <div class="card mt-0 mt-md-5 mb-5">
+            <img src="./img-zapatillas/zapatilla-puma-5png.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Zapatillas Puma Resolve Street Adp de Hombre</h5>
+              <p class="card-text">$23.999</p>
+              <a href="#" class="btn btn-outline-danger">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="d-flex col-md-6 mb-4 mb-md-0 ps-0 pe-0 justify-content-center"><img class="img-fluid" src="./img-zapatillas/zapatilla-imagen-fondo.png" alt=""></div>
+          <div class="d-flex col-md-6 ps-0 pe-0 justify-content-center"><img class="img-fluid" src="./img-zapatillas/Zapatilla-imagen-fondo-m.png" alt=""></div>
+          </div>
+        </div>
+
+       <div class="container-fluid">
+        <div class="row ">
+        <div class="card mt-5 mb-0 mb-sm-5">
+          <img src="./img-zapatillas/zapatilla-m-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Zapatillas Asics Gel-Sonoma 6 Standard W Black- de Mujer</h5>
+            <p class="card-text">$32.999</p>
+            <a href="#" class="btn btn-outline-danger">Comprar</a>
+          </div>
+        </div>
+        <div class="card mt-5 mb-5">
+          <img src="./img-zapatillas/zapatillas-m-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Zapatillas Asics Gel-Challenger 13 Clay Standar De Mujer</h5>
+            <p class="card-text">$44.499</p>
+            <a href="#" class="btn btn-outline-danger">Comprar</a>
+          </div>
+          </div>
+          <div class="card mt-0 mt-md-5 mb-5">
+            <img src="./img-zapatillas/zapatillas-m-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Zapatillas Under Armour Ua W Charged Vantage 2-Blk de Mujer</h5>
+              <p class="card-text">$29.999</p>
+              <a href="#" class="btn btn-outline-danger">Comprar</a>
+            </div>
+          </div>
+          <div class="card mt-0 mt-md-5 mb-5">
+            <img src="./img-zapatillas/zapatillas-m-4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Zapatillas Asics Gel-Nagoya 2 Noosa W Black-Saf de Mujer</h5>
+              <p class="card-text">$28.499</p>
+              <a href="#" class="btn btn-outline-danger">Comprar</a>
+            </div>
+          </div>
+          <div class="card mt-0 mt-md-5 mb-5">
+            <img src="./img-zapatillas/zapatillas-m-5.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Zapatillas Saucony W Axon 2 Cool Mint-Acid de Mujer</h5>
+              <p class="card-text">$43.999</p>
+              <a href="#" class="btn btn-outline-danger">Comprar</a>
+            </div>
+          </div>
+      </div>
+    </div> 
+
+    <div class="container-fluid">
+      <div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end text-center h4">
+        REMERAS
+      </div>
+    </div>
+
+    <div class="container-fluid"> 
+      <div class="row">
+          <div class="card mt-5 mb-0 mb-sm-5">
+              <img src="./Img-Remeras/remera hombre1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Remera Puma Ess Tee De Hombre</h5>
+                <p class="card-text">$22.999</p>
+                <a href="#" class="btn btn-outline-danger">Comprar</a>
+            </div>
+          </div>
+        <div class="card mt-5 mb-5">
+            <img src="./Img-Remeras/remera niño1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Remera Topper T-Shirt Basic Boys Trng Azul C De Niño</h5>
+              <p class="card-text">$21.999</p>
+              <a href="#" class="btn btn-outline-danger">Comprar</a>
+            </div>
+        </div>
+        <div class="card mt-0 mt-md-5 mb-5">
+          <img src="./Img-Remeras/remera mujer1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Remera Topper T-Shirt Basic Wmns Trng Gris De Mujer
+            </h5>
+            <p class="card-text">$22.999</p>
+            <a href="#" class="btn btn-outline-danger">Comprar</a>
+        </div>
+      </div>
+      <div class="card mt-0 mt-md-5 mb-5">
+        <img src="./Img-Remeras/remera niño2.png"  class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Remera Puma Ess 2 Col Logo Tee B De Niño</h5>
+          <p class="card-text">$21.999</p>
+          <a href="#" class="btn btn-outline-danger">Comprar</a>
+      </div>
+    </div>
+        <div class="card mt-0 mt-md-5 mb-5">
+          <img src="./Img-Remeras/remera hombre2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Remera Puma Rebel Tee De Hombre</h5>
+            <p class="card-text">$23.999</p>
+            <a href="#" class="btn btn-outline-danger">Comprar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid">
+    <div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end text-center h4">
+      PANTALONES
+    </div>
+  </div>
+
+  <div class="container-fluid"> 
+    <div class="row">
+        <div class="card mt-5 mb-0 mb-sm-5">
+            <img src="./img-Pantalones/Pantalones Hombre2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pantalon Puma Ferrari Race Sweat De Hombre
+              </h5>
+              <p class="card-text">$22.999</p>
+              <a href="#" class="btn btn-outline-danger">Comprar</a>
+          </div>
+        </div>
+      <div class="card mt-5 mb-5">
+          <img src="./img-Pantalones/Pantalones Mujer1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pantalon Puma Ess Sweat Pants Closed Tr De Mujer</h5>
+            <p class="card-text">$21.999</p>
+            <a href="#" class="btn btn-outline-danger">Comprar</a>
+          </div>
+      </div>
+      <div class="card mt-0 mt-md-5 mb-5">
+        <img src="./img-Pantalones/Pantalones niños1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pantalon Fila Pantalon Juvenil Fila Dna-6577 De Niño</h5>
+          <p class="card-text">$22.999</p>
+          <a href="#" class="btn btn-outline-danger">Comprar</a>
+      </div>
+    </div>
+    <div class="card mt-0 mt-md-5 mb-5">
+      <img src="./img-Pantalones/Pantalones Hombre1.png"  class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pantalon Puma Bmw Mms Sweat De Hombre</h5>
+        <p class="card-text">$21.999</p>
+        <a href="#" class="btn btn-outline-danger">Comprar</a>
+    </div>
+  </div>
+      <div class="card mt-0 mt-md-5 mb-5">
+        <img src="./img-Pantalones/Pantalones Mujer2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pantalon Reebok Te Piping Jogger De Mujer
+          </h5>
+          <p class="card-text">$23.999</p>
+          <a href="#" class="btn btn-outline-danger">Comprar</a>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    </main>
+
+    <!--------------------------------------------------------------------------->
+      <footer>
+
+        
+            <div class="container-fluid">
+            <div class="row p-5 pb-2 bg-dark text-white justify-content-center footer-div">
+              <div class="col-12 col-md-4 col-lg-3">
+                <p class="h3 mt-3 mt-md-0">SportiveGear</p>
+                <p class="text-secondary">Tucuman, San Miguel de Tucuman.</p>
+              </div>
+              <div class="col-xs-12 col-md-4 col-lg-3">
+                <p class="h5 mb-3 mt-3 mt-md-0">Institucional.</p>
+                <div class="mb-2">
+                <a class="text-secondary text-decoration-none" href="#">Terminos y Condiciones.</a>
+                </div>
+                <div class="mb-2">
+                  <a class="text-secondary text-decoration-none" href="#">Politicas de Privacidad.</a>
+                  </div>
+                  <div class="mb-2">
+                    <a class="text-secondary text-decoration-none" href="#">Sucursales.</a>
+                    </div>
+                    <div class="mb-2">
+                      <a class="text-secondary text-decoration-none" href="#">Trabaja con nosotros.</a>
+                      </div>
+                
+              </div>
+              <div class="col-12 col-md-4 col-lg-3 ">
+                <p class="h5 mb-3 mt-3 mt-md-0">Clientes.</p>
+                <div class="mb-2">
+                  <a class="text-secondary text-decoration-none" href="#">Politicas de Cambio.</a>
+                </div>
+                <div class="mb-2">
+                  <a class="text-secondary text-decoration-none" href="#">Realizar un cambio.</a>
+                  </div>
+                  <div class="mb-2">
+                    <a class="text-secondary text-decoration-none" href="#">Preguntas frecuentes.</a>
+                    </div>
+                    <div class="mb-2">
+                      <a class="text-secondary text-decoration-none" href="#">Creditos Personales.</a>
+                      </div>
+              </div>
+              <div class="col-12 col-lg-3">
+                <p class="h5 mb-3 mt-3 mt-lg-0">Social</p>
+                <div class="mb-2">
+                  <a class="text-secondary text-decoration-none" href="#"><i class="bi bi-instagram"></i> Instagram.</a>
+                  </div>
+                  <div class="mb-2">
+                    <a class="text-secondary text-decoration-none" href="#"><i class="bi bi-facebook"></i> Facebook.</a>
+                    </div>
+                    <div class="mb-2">
+                      <a class="text-secondary text-decoration-none" href="#"><i class="bi bi-whatsapp"></i> Whatsapp.</a>
+                      </div>
+              </div>
+              <div class="col-12 pt-4">
+                <p class="text-white text-center">Copyright - All rights reserved © 2023.</p>
+              </div>
+            </div>
+            </div> 
+    </footer>
+
+
+     <!--------------------------------------------------------------------------->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

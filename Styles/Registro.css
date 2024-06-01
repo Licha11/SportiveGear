@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0; 
+}
+
+main {
+    flex: 1; 
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bg-section{
+    background-image: url("../imgbg/bgregistro2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.login-div2{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
+    border-radius: 15px ;
+}
+
+.ol-contraseña a{
+    text-decoration: none;
+    color: #000;
+}
+
+.registro a{
+    text-decoration: none;
+    color: #000;
+}
+
+.ol-contraseña a:hover{
+
+    padding: 0.3rem;
+    box-shadow:10px 0px 10px rgba(0, 0, 0, 0.575);
+    border-radius: 15px;
+}
+
+.registro a:hover{
+    padding: 0.3rem;
+    box-shadow:10px 0px 10px rgba(0, 0, 0, 0.575);
+    border-radius: 15px;
+}
+
+.register b:hover{
+    background: whitesmoke;
+    padding: 0.3rem;
+}
+
+.ingresar{
+    background-color: aquamarine;
+}
+.cancelar{
+    background-color: orange;
+}
+
+
+.bg-div{
+    /* Ancho y largo de la imagen al 100% del contenedor */
+    width: 100%; 
+    height: 100%;
+} 
+
+@media (min-width: 500.98px){ /*Vista de Pc*/
+
+    .bg-div{
+        border-radius: 0 15px 15px 0;
+    } 
+    .login-div2{
+        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 15px 0px 0px 15px;
+    }
+    .register b:hover{
+        background: whitesmoke;
+        border-radius:15px;
+        padding: 0.3rem;
+    }
+}
